@@ -47,6 +47,7 @@ body {
     background-color: transparent;
     border-color: #fff;
 }
+
 /* Navbar Section */
 nav {
     background-color: #fff;
@@ -112,11 +113,75 @@ header {
     justify-content: center;
     gap: 16px;
 }
-.btn.access{
+
+.btn.access {
     background-color: #FFFFFF;
     color: #469165;
     border-radius: 16px;
     padding: 8px 16px;
     margin: 0 auto;
     margin-bottom: 10px;
+}
+
+/* Notes Section */
+.notes {
+    padding: 80px 0;
+    background-color: #FBFBFB;
+}
+
+h2.section-title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #001931;
+    margin-bottom: 10px;
+}
+
+p.section-subtitle {
+    font-size: 16px;
+    text-align: center;
+    color: #627382;
+    margin-bottom: 20px;
+}
+
+
+.notes-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.note-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 32px 24px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.note-card span {
+    display: flex;
+    border-radius: 200px;
+    background: #F95555;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.note-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.note-card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }
