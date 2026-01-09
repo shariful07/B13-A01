@@ -125,7 +125,7 @@ header {
 
 /* Notes Section */
 .notes {
-    padding: 80px 0;
+    padding: 80px 0 0 0;
     background-color: #FBFBFB;
 }
 
@@ -158,7 +158,7 @@ p.section-subtitle {
     padding: 32px 24px;
     text-align: center;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
 .note-card span {
@@ -184,4 +184,127 @@ p.section-subtitle {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+
+/* brain section */
+.brain {
+    padding: 120px 0;
+}
+
+.brain-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.brain-img {
+    width: 40%
+}
+
+.brain-img img {
+    width: 100%;
+    height: auto;
+}
+
+.brain-text {
+    width: 60%;
+    text-align: left;
+}
+
+.brain-text h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #469165;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.brain-text h2 {
+    text-align: left;
+}
+
+.brain-text p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* brain-list */
+.brain-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.brain-list-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #001931;
+    line-height: 22px;
+}
+
+.brain-list-item::before {
+    content: "✓";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #30B868;
+    color: white;
+    border-radius: 50%;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/*  Early Access Section */
+.early-access {
+    padding: 0 0 120px 0;
+}
+
+.early-access-content {
+    padding: 80px 0;
+    text-align: center;
+    background: #F7F6F2;
+    border-radius: 12px;
+}
+
+.early-access-content h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.early-access-content button {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+/* Footer section */
+footer {
+    text-align: center;
+    background-color: #001931;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2E4256;
+    padding: 0 80px 20px 0;
+    margin-bottom: 30px;
+}
+
+.footer-content h1 img {
+    width: 150px;
+}
+
+.footer-content p {
+    color: #FFFFFF;
+}
+.footer-content a {
+    margin: 0 4px;
 }
